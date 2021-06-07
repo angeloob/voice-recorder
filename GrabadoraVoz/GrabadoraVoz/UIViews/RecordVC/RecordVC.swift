@@ -239,6 +239,11 @@ extension RecordVC: AVAudioRecorderDelegate, AVAudioPlayerDelegate{
 extension RecordVC: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if arrUrls.isEmpty{
+            tableview.isHidden = true
+        }else{
+            tableview.isHidden = false
+        }
         return arrUrls.count
     }
     
