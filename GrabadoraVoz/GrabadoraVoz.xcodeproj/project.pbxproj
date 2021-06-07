@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576D7FD34C6B76C4E166C236 /* Pods_GrabadoraVoz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCABE909A8B111F37DBD6817 /* Pods_GrabadoraVoz.framework */; };
+		5B96BDF8266BDACB0095F1B1 /* RecordsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B96BDF6266BDACB0095F1B1 /* RecordsCell.swift */; };
+		5B96BDF9266BDACB0095F1B1 /* RecordsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B96BDF7266BDACB0095F1B1 /* RecordsCell.xib */; };
+		5BD93865266DD7EC004240E6 /* MRecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD93864266DD7EC004240E6 /* MRecordsVC.swift */; };
+		5BF36149266B06D2004B8374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF36148266B06D2004B8374 /* AppDelegate.swift */; };
+		5BF3614B266B06D2004B8374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3614A266B06D2004B8374 /* SceneDelegate.swift */; };
+		5BF36150266B06D2004B8374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF3614E266B06D2004B8374 /* Main.storyboard */; };
+		5BF36152266B06D4004B8374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF36151266B06D4004B8374 /* Assets.xcassets */; };
+		5BF36155266B06D4004B8374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF36153266B06D4004B8374 /* LaunchScreen.storyboard */; };
+		5BF3615D266B0732004B8374 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BF3615C266B0732004B8374 /* GoogleService-Info.plist */; };
+		5BF36165266B2007004B8374 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF36164266B2007004B8374 /* LoginVC.swift */; };
+		5BF36168266B2A2C004B8374 /* RecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF36167266B2A2C004B8374 /* RecordVC.swift */; };
+		5BF3616A266B3745004B8374 /* ExtButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF36169266B3745004B8374 /* ExtButton.swift */; };
+		5BF3616D266B417D004B8374 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3616C266B417D004B8374 /* RegisterVC.swift */; };
+		5BF3616F266B4A02004B8374 /* ExtString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF3616E266B4A02004B8374 /* ExtString.swift */; };
+		5BF36171266B4A83004B8374 /* ExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF36170266B4A83004B8374 /* ExtViewController.swift */; };
+		5BF36173266B64DF004B8374 /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF36172266B64DE004B8374 /* RegisterVC.xib */; };
+		5BF36177266B68E8004B8374 /* RecordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF36176266B68E8004B8374 /* RecordVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B96BDF6266BDACB0095F1B1 /* RecordsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsCell.swift; sourceTree = "<group>"; };
+		5B96BDF7266BDACB0095F1B1 /* RecordsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordsCell.xib; sourceTree = "<group>"; };
+		5BD93864266DD7EC004240E6 /* MRecordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRecordsVC.swift; sourceTree = "<group>"; };
+		5BF36145266B06D2004B8374 /* GrabadoraVoz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabadoraVoz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF36148266B06D2004B8374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BF3614A266B06D2004B8374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BF3614F266B06D2004B8374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF36151266B06D4004B8374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BF36154266B06D4004B8374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BF36156266B06D4004B8374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF3615C266B0732004B8374 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BF36164266B2007004B8374 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5BF36167266B2A2C004B8374 /* RecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVC.swift; sourceTree = "<group>"; };
+		5BF36169266B3745004B8374 /* ExtButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtButton.swift; sourceTree = "<group>"; };
+		5BF3616C266B417D004B8374 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		5BF3616E266B4A02004B8374 /* ExtString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtString.swift; sourceTree = "<group>"; };
+		5BF36170266B4A83004B8374 /* ExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtViewController.swift; sourceTree = "<group>"; };
+		5BF36172266B64DE004B8374 /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
+		5BF36176266B68E8004B8374 /* RecordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordVC.xib; sourceTree = "<group>"; };
+		6314ACB9B6CD13ED1750A392 /* Pods-GrabadoraVoz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabadoraVoz.debug.xcconfig"; path = "Target Support Files/Pods-GrabadoraVoz/Pods-GrabadoraVoz.debug.xcconfig"; sourceTree = "<group>"; };
+		A4510B3B98A131FED4B221C5 /* Pods-GrabadoraVoz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabadoraVoz.release.xcconfig"; path = "Target Support Files/Pods-GrabadoraVoz/Pods-GrabadoraVoz.release.xcconfig"; sourceTree = "<group>"; };
+		DCABE909A8B111F37DBD6817 /* Pods_GrabadoraVoz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabadoraVoz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF36142266B06D2004B8374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576D7FD34C6B76C4E166C236 /* Pods_GrabadoraVoz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40FE378CF9722833C6C591CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCABE909A8B111F37DBD6817 /* Pods_GrabadoraVoz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B96BDF4266BDA6B0095F1B1 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				5B96BDF5266BDA940095F1B1 /* Cells */,
+				5BF3615E266B14F3004B8374 /* Login */,
+				5BF36166266B2835004B8374 /* RecordVC */,
+				5BF3616B266B4164004B8374 /* Register */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		5B96BDF5266BDA940095F1B1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B96BDFA266BDB9A0095F1B1 /* RecordsCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5B96BDFA266BDB9A0095F1B1 /* RecordsCell */ = {
+			isa = PBXGroup;
+			children = (
+				5B96BDF6266BDACB0095F1B1 /* RecordsCell.swift */,
+				5B96BDF7266BDACB0095F1B1 /* RecordsCell.xib */,
+			);
+			path = RecordsCell;
+			sourceTree = "<group>";
+		};
+		5BD93863266DD7D0004240E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BD93864266DD7EC004240E6 /* MRecordsVC.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BF3613C266B06D2004B8374 = {
+			isa = PBXGroup;
+			children = (
+				5BF36147266B06D2004B8374 /* GrabadoraVoz */,
+				5BF36146266B06D2004B8374 /* Products */,
+				D285ED32053E11CA360FC452 /* Pods */,
+				40FE378CF9722833C6C591CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF36146266B06D2004B8374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF36145266B06D2004B8374 /* GrabadoraVoz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF36147266B06D2004B8374 /* GrabadoraVoz */ = {
+			isa = PBXGroup;
+			children = (
+				5BF36148266B06D2004B8374 /* AppDelegate.swift */,
+				5BF3614A266B06D2004B8374 /* SceneDelegate.swift */,
+				5BD93863266DD7D0004240E6 /* Models */,
+				5BF36161266B1521004B8374 /* Extensions */,
+				5B96BDF4266BDA6B0095F1B1 /* UIViews */,
+				5BF3614E266B06D2004B8374 /* Main.storyboard */,
+				5BF36151266B06D4004B8374 /* Assets.xcassets */,
+				5BF36153266B06D4004B8374 /* LaunchScreen.storyboard */,
+				5BF36156266B06D4004B8374 /* Info.plist */,
+				5BF3615C266B0732004B8374 /* GoogleService-Info.plist */,
+			);
+			path = GrabadoraVoz;
+			sourceTree = "<group>";
+		};
+		5BF3615E266B14F3004B8374 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5BF36164266B2007004B8374 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5BF36161266B1521004B8374 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5BF36169266B3745004B8374 /* ExtButton.swift */,
+				5BF36170266B4A83004B8374 /* ExtViewController.swift */,
+				5BF3616E266B4A02004B8374 /* ExtString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5BF36166266B2835004B8374 /* RecordVC */ = {
+			isa = PBXGroup;
+			children = (
+				5BF36167266B2A2C004B8374 /* RecordVC.swift */,
+				5BF36176266B68E8004B8374 /* RecordVC.xib */,
+			);
+			path = "\U0010RecordVC";
+			sourceTree = "<group>";
+		};
+		5BF3616B266B4164004B8374 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				5BF3616C266B417D004B8374 /* RegisterVC.swift */,
+				5BF36172266B64DE004B8374 /* RegisterVC.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		D285ED32053E11CA360FC452 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6314ACB9B6CD13ED1750A392 /* Pods-GrabadoraVoz.debug.xcconfig */,
+				A4510B3B98A131FED4B221C5 /* Pods-GrabadoraVoz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF36144266B06D2004B8374 /* GrabadoraVoz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF36159266B06D4004B8374 /* Build configuration list for PBXNativeTarget "GrabadoraVoz" */;
+			buildPhases = (
+				5AC4F96A19E695A850C6B47E /* [CP] Check Pods Manifest.lock */,
+				5BF36141266B06D2004B8374 /* Sources */,
+				5BF36142266B06D2004B8374 /* Frameworks */,
+				5BF36143266B06D2004B8374 /* Resources */,
+				70AA42CF756CF8F69ED9CABB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabadoraVoz;
+			productName = GrabadoraVoz;
+			productReference = 5BF36145266B06D2004B8374 /* GrabadoraVoz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF3613D266B06D2004B8374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5BF36144266B06D2004B8374 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 5BF36140266B06D2004B8374 /* Build configuration list for PBXProject "GrabadoraVoz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF3613C266B06D2004B8374;
+			productRefGroup = 5BF36146266B06D2004B8374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF36144266B06D2004B8374 /* GrabadoraVoz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF36143266B06D2004B8374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF36155266B06D4004B8374 /* LaunchScreen.storyboard in Resources */,
+				5BF36177266B68E8004B8374 /* RecordVC.xib in Resources */,
+				5B96BDF9266BDACB0095F1B1 /* RecordsCell.xib in Resources */,
+				5BF3615D266B0732004B8374 /* GoogleService-Info.plist in Resources */,
+				5BF36152266B06D4004B8374 /* Assets.xcassets in Resources */,
+				5BF36150266B06D2004B8374 /* Main.storyboard in Resources */,
+				5BF36173266B64DF004B8374 /* RegisterVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC4F96A19E695A850C6B47E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabadoraVoz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70AA42CF756CF8F69ED9CABB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrabadoraVoz/Pods-GrabadoraVoz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GrabadoraVoz/Pods-GrabadoraVoz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GrabadoraVoz/Pods-GrabadoraVoz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF36141266B06D2004B8374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF3616A266B3745004B8374 /* ExtButton.swift in Sources */,
+				5B96BDF8266BDACB0095F1B1 /* RecordsCell.swift in Sources */,
+				5BF36149266B06D2004B8374 /* AppDelegate.swift in Sources */,
+				5BF36171266B4A83004B8374 /* ExtViewController.swift in Sources */,
+				5BF36168266B2A2C004B8374 /* RecordVC.swift in Sources */,
+				5BD93865266DD7EC004240E6 /* MRecordsVC.swift in Sources */,
+				5BF3616D266B417D004B8374 /* RegisterVC.swift in Sources */,
+				5BF3616F266B4A02004B8374 /* ExtString.swift in Sources */,
+				5BF3614B266B06D2004B8374 /* SceneDelegate.swift in Sources */,
+				5BF36165266B2007004B8374 /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BF3614E266B06D2004B8374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF3614F266B06D2004B8374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF36153266B06D4004B8374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF36154266B06D4004B8374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF36157266B06D4004B8374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BF36158266B06D4004B8374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BF3615A266B06D4004B8374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6314ACB9B6CD13ED1750A392 /* Pods-GrabadoraVoz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P84YJY762D;
+				INFOPLIST_FILE = GrabadoraVoz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.obed.GrabadoraVoz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5BF3615B266B06D4004B8374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4510B3B98A131FED4B221C5 /* Pods-GrabadoraVoz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P84YJY762D;
+				INFOPLIST_FILE = GrabadoraVoz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.obed.GrabadoraVoz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF36140266B06D2004B8374 /* Build configuration list for PBXProject "GrabadoraVoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF36157266B06D4004B8374 /* Debug */,
+				5BF36158266B06D4004B8374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF36159266B06D4004B8374 /* Build configuration list for PBXNativeTarget "GrabadoraVoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF3615A266B06D4004B8374 /* Debug */,
+				5BF3615B266B06D4004B8374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BF3613D266B06D2004B8374 /* Project object */;
+}
